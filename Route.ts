@@ -2,7 +2,6 @@ import http from "http";
 import fs from "fs";
 
 
-
 export function Routes(req: http.IncomingMessage, res: http.ServerResponse){
     console.log(req.url, req.method);
 
